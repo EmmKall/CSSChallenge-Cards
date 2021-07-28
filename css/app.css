@@ -50,6 +50,10 @@ body{
     background: #FFFFFF;
 }
 
+.card a{
+    border: 0.1rem solid #FFFFFF;
+}
+
 .card1{
     background: var(--first-color);
 }
@@ -63,7 +67,10 @@ body{
 .card1 a{
     color: var(--first-color)
 }
-
+.card1 a:hover, .card2 a:hover, .card3 a:hover{
+    background: none;
+    color: #FFFFFF;
+}
 .card2 a{
     color: var(--second-color);
 }
