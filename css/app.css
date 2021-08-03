@@ -13,7 +13,19 @@ body{
     align-items: center;
 }
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+.attribution p{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.attribution p{
+    color: rgb(82, 80, 80);
+}
 
 .container{
     width: 90%;
